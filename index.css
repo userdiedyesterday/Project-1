@@ -1,0 +1,115 @@
+#main{
+    background-color: white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#main-first{
+    height: 80px;
+    background-color: rgb(188, 86, 86);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-first b{
+    color: white;
+    font-size: 50px;
+}
+
+#main-second{
+    padding: 30px 100px;
+    display: flex;
+}
+
+.first-card, .second-card, .third-card{
+    border-radius: 10px;
+    width: 350px;
+    background-color: white;
+    min-height: 300px;
+    box-shadow: 3px 4px 10px gray;
+}
+
+.card-title{
+    background-color: rgb(243, 66, 66);
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    width: 349px;
+}
+
+.card-data{
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Calibri', Courier, monospace;
+    line-height: 40px;
+    height: 360px;
+    border-bottom: 5px solid red;
+    border-radius: 10px;
+}
+
+#main-third{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.second-title{
+    background-color: rgb(189, 189, 87);
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
+
+.second-data{
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Calibri', Courier, monospace;
+    height: 360px;
+    line-height: 30px;
+    border-radius: 10px;
+    border-bottom: 5px solid rgb(164, 164, 42);
+}
+
+#main-fouth{
+    padding-left: 3px;
+    padding-right: 30px;
+    padding-top: 50px
+}
+
+
+.third-title{
+    background-color: rgb(101, 221, 219);
+    height: 65px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
+
+.third-data{
+    background-color: white;
+    font-size: 15px;
+    font-family: 'Calibri', Courier, monospace;
+    height: 360px;
+    line-height: 20px;
+    border-radius: 10px;
+    border-bottom: 5px solid rgb(117, 205, 230);
+}
